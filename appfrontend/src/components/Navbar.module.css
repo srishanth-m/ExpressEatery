@@ -1,0 +1,79 @@
+.navbar {
+    background-color: #f94828; /* Coral color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000; /* White color */
+  }
+  
+  .navLinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navLinks li {
+    margin-right: 20px;
+  }
+  
+  .navLinks li a {
+    text-decoration: none;
+    color: #000000; /* White color */
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .navLinks li a:hover {
+    color: #ffffff; /* Gold color on hover */
+  }
+  
+  .userActions {
+    display: flex;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .btnPrimary {
+    background-color: #fff; /* White color */
+    color: #000000; /* Coral color */
+  }
+  
+  .btnSecondary {
+    background-color: #fff; /* White color */
+    color: #000000; /* Coral color */
+  }
+  
+  .btnSecondary a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .btnPrimary:hover {
+    background-color: #fffffe; /* Gold color on hover */
+    color: #f94828; /* White color */
+  }
+  .btnSecondary:hover {
+    background-color: #fffffe;
+  }
+  .btnSecondary:hover a {
+    background-color: #ffffff;
+    color: #f94828; /* Coral color */
+  }
+  
